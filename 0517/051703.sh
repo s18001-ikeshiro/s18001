@@ -1,3 +1,3 @@
- dir3/file{01..10}
+ touch dir3/file{01..10}
  
 
