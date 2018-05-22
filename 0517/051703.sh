@@ -1,3 +1,4 @@
- touch dir3/file{01..10}
+ #!/bin/bash
+touch dir3/file{01..10}
  
 

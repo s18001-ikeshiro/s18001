@@ -1,1 +1,2 @@
- rm -r dir*
+#!/bin/bash
+rm -r dir*
