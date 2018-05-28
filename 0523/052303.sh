@@ -1,3 +1,3 @@
 #!/bin/bash
-find . -type f -print | sort -n | tac | tail -n 5
+sudo du -b /home/* | sort -n | head -n 5
 

@@ -1,3 +1,4 @@
 #!/bin/bash
- sudo find /etc -type f -print | sort -n | tac | tail -n 5
+ sudo du -b /etc/* | sort -n | head -n 5
+
 
