@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo du -b /home/* | sort -n | head -n 5
-
+find ~ -type -f | xarge du -b | sort -n | head -n 5

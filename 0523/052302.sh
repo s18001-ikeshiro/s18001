@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo du -b /home/* | sort -n | tac | head -n 5
+find ~ type -f | xarge du -b | sort -n | tac | head -n 5
 
 
 

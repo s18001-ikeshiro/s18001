@@ -1,3 +1,3 @@
 #!/bin/bash
- find /home/vagrant -type f -print | wc
+ find /home/vagrant -type f -print | wc -l
 
